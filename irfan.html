@@ -32,9 +32,6 @@
         0 0 30px #ff9800aa;
       border: 2px solid #ff9800; /* golden border */
       backdrop-filter: blur(8px);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
 
     .title {
@@ -93,13 +90,14 @@
       font-size: 14px;
       color: #ffc107;
       font-weight: 600;
-      margin: 0 0 15px 0;
+      margin-top: -6px;
+      margin-bottom: 15px; /* Thoda space for button below */
     }
 
     .call-button {
       background-color: #4caf50; /* green */
       color: white;
-      padding: 12px 24px;
+      padding: 12px 30px;
       font-size: 18px;
       font-weight: 700;
       border: none;
@@ -109,8 +107,8 @@
       display: inline-block;
       transition: background-color 0.3s ease;
       min-width: 160px;
-      text-align: center;
     }
+
     .call-button:hover {
       background-color: #45a049;
     }

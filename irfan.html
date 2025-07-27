@@ -32,6 +32,9 @@
         0 0 30px #ff9800aa;
       border: 2px solid #ff9800; /* golden border */
       backdrop-filter: blur(8px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .title {
@@ -90,8 +93,7 @@
       font-size: 14px;
       color: #ffc107;
       font-weight: 600;
-      margin-top: -6px;
-      margin-bottom: 0;
+      margin: 0 0 15px 0;
     }
 
     .call-button {
@@ -105,8 +107,9 @@
       cursor: pointer;
       text-decoration: none;
       display: inline-block;
-      margin-top: 15px;
       transition: background-color 0.3s ease;
+      min-width: 160px;
+      text-align: center;
     }
     .call-button:hover {
       background-color: #45a049;
@@ -135,10 +138,10 @@
     <div class="contact-info">
       📞 સંપર્ક કરો: <span class="phone">9925223941</span>
     </div>
-    <a href="tel:9925223941" class="call-button">હવે કોલ કરો</a>
     <div class="note">
       🙏 જરૂરિયાતમંદ લોકો જ સંપર્ક કરે
     </div>
+    <a href="tel:9925223941" class="call-button">હવે કોલ કરો</a>
   </div>
 </body>
 </html>
